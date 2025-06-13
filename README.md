@@ -13,6 +13,7 @@ wget -O hy2.sh https://raw.githubusercontent.com/bye1158/alpine-hysteria2/main/h
 随系统自启动  
 看状态 service hysteria status  
 重启 service hysteria restart  
+卸载 bash <(curl -fsSL https://get.hy2.sh/) --remove
 
 ## 测试环境：  alpine 3.19.1  
 
