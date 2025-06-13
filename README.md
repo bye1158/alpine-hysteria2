@@ -3,13 +3,13 @@
 
 ## 一键食用
 ```
-wget -O hy2.sh https://raw.githubusercontent.com/zrlhk/alpine-hysteria2/main/hy2.sh  && sh hy2.sh
+wget -O hy2.sh https://raw.githubusercontent.com/bye1158/alpine-hysteria2/main/hy2.sh  && sh hy2.sh
 ```
 重复执行，会覆盖密码。  
 
 ## 说明：  
 配置文件：/etc/hysteria/config.yaml  
-使用自签名证书，默认端口40443，安全tls，SNI为： bing.com  
+使用自签名证书，默认端口57205，安全tls，SNI为： bing.com  
 随系统自启动  
 看状态 service hysteria status  
 重启 service hysteria restart  
